@@ -117,44 +117,7 @@ for Category in UniqueCategoryArray:
 	wks.cell(Cell).value = str(CategoryArray.count(Category))
 	#OutputString = Category + ": " + str(CategoryArray.count(Category))
         #print(OutputString)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#Display ticket count and counts of open ticket categories
-#TicketCount = str(len(IDContainers))
-#print(Domain + " has " + TicketCount + " open tickets:")
-
-#for Category in UniqueCategoryArray:
-#	OutputString = Category + ": " + str(CategoryArray.count(Category))
-#	print(OutputString)
-
+	
 #Cleanup
 for File in FileList:
 	os.remove(File)
-	#print(File)
