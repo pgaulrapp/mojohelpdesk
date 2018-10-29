@@ -1,7 +1,7 @@
 # mojohelpdesk
-This script gets a count of all open tickets in a specific queue in Mojo Helpdesk. I wrote it to give myself an overview of ticket counts each day.
+This script gets a count of all open tickets in a specific queue in Mojo Helpdesk. I wrote it to give myself an overview of ticket counts each day.\n
 
-For the setup, you will need:
+For the setup, you will need:\n
 
 • Google API access turned on
 • A service account activated
